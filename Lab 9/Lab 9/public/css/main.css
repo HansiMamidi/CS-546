@@ -1,0 +1,63 @@
+/*
+You will style your page using at least 5 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	color: rgb(153, 69, 170);
+}
+
+html,
+body {
+	font-size: 14pt;
+}
+
+body {
+	background: #dedede;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+label {
+	font-weight: bold;
+}
+
+.myClassOne {
+	color: red;
+}
+
+.myClassTwo {
+	color: blue;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+.inputClass {
+	border: 3px solid red;
+	background-color: #eee;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+}
+
+.btnClass {
+	background-color: navy;
+	color: white;
+	border: 1px solid red;
+}
+
+#divColorBorder {
+	border-top: 3px solid red;
+	border-bottom: 3px solid blue;
+	border-right: 3px dotted green;
+	border-left: 3px dashed salmon;
+}

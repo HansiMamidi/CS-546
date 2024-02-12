@@ -1,0 +1,16 @@
+{
+  "name": "cs_546_lab_9",
+  "version": "1.0.0",
+  "description": "Lab 9 Assignment",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sri_Naga_Hansi_Mamidi_20012906",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.6"
+  }
+}

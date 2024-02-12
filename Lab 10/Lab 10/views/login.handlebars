@@ -1,0 +1,33 @@
+{{!--
+
+login form handlebar template
+
+--}}
+
+<form action="/login" method="POST" id="login-form">
+    <div class="form-group">
+        <label for="emailAddressInput">Email Address:</label>
+        <input type="email" id="emailAddressInput" name="emailAddressInput" placeholder="Enter email address">
+    </div>
+    <div class="form-group">
+        <label for="passwordInput">Password:</label>
+        <input type="password" id="passwordInput" name="passwordInput" placeholder="Enter Password">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-default">Login</button>
+      </div>
+            <div class="error-container" id ="error-container">
+        <div class="text-goes-here">
+          {{ error }}
+        </div>
+      </div>
+</form>
+
+<a href="/register">Click here to register</a>
+
+
+{{!-- <div id="results"></div>
+
+<div id="error" class="error" hidden></div> --}}
+
+ 

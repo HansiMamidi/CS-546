@@ -1,0 +1,106 @@
+/*This file should have CSS rulesets */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 14pt;
+}
+
+body {
+	background: #dedede;
+	font-family: Calibri, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+	max-width: 75%;
+	margin: auto;
+}
+
+header {
+	border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2 {
+	color: #0e0e0e;
+	margin-bottom: 5px;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 2;
+}
+
+.post {
+	width: 75%;
+	border-bottom: 1px dashed #333;
+}
+
+.new-post-form {
+	max-width: 300px;
+}
+
+.new-post-form .full-width-input {
+	display: block;
+	min-height: 3em;
+	margin: 10px 0;
+	width: 100%;
+}
+
+label {
+	font-weight: bold;
+}
+
+img{
+    border-radius: 10px;
+	width: 300px;
+    float: right;
+}
+
+.error-list li {
+	color: #2b00ff;
+}
+
+.btnClass {
+	background-color: navy;
+	color: white;
+	border: 1px solid red;
+}
+
+a {
+	color: rgb(56, 59, 143);
+	text-decoration: none;
+	font-size: 18pt;
+}
+
+a:hover {
+	color: rgb(68, 151, 223);
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(158, 45, 160);
+}
+
+li {
+	color: rgb(22, 11, 11);
+	font-size: 18pt;
+}
+
+#divColorBorder {
+	border-top: 3px solid red;
+	border-bottom: 3px solid blue;
+	border-right: 3px dotted green;
+	border-left: 3px dashed salmon;
+}

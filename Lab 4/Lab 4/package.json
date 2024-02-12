@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-4",
+  "version": "1.0.0",
+  "description": "Lab 4 Assignment",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Sri Naga Hansi Mamidi 20012906",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0"
+  }
+}

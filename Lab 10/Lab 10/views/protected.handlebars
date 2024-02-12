@@ -1,0 +1,42 @@
+{{!--
+
+If the user is logged in , and 'GET /protected' endpoint is called, you will render this view based on the specs.
+
+--}}
+
+<p>Welcome {{firstName}}, the time is now: {{currentTime}}. Your role in the system is: {{role}}.</p>
+
+{{!-- {{#if "{{{role}}}"=="admin"}}
+ --}}
+
+ {{!-- Handlebars.registerHelper('compareStrings', function(p, q, options) {
+    return (p == q) ? options.fn(this) : options.inverse(this);
+});
+ <div>
+ {{#compareStrings role "admin"}} --}}
+
+ {{!-- {{#if (eq "role}}" "admin")}} <a href="/admin">Admin User? Click here to go to Admin Page</a> {{/if}} --}}
+    
+{{!-- {{/compareStrings }}
+</div> --}}
+{{!-- {{/if}} --}}
+
+
+{{!-- Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+    return (arg1 == arg2) ? true : false;
+});
+
+{{#if {{admin}}}
+    <a href="/admin">Admin User? Click here to go to Admin Page</a>
+{{/if}} --}}
+{{!-- {{#if {{admin}}}}
+    <a href="/admin">Admin User? Click here to go to Admin Page</a>
+{{/if}} --}}
+<div>
+{{#if admin}}
+    <a href="/admin">Admin User? Click here to go to Admin Page</a>
+{{/if}}
+</div>
+
+<a href="/logout">Logout</a>
+
